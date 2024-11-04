@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-   printf("Hello word \n");
+   printf("Hello perfect word \n");
   
    return 0;
 }
