@@ -10,5 +10,4 @@ int main()
        printf (" \n *     *\n  *   * \n   * *  \n    *   \n   * *  \n  *   * \n *     *\n");
        printf ("I was born:%d",2024-40);
    return 0;
-   
 }
