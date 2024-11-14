@@ -16,11 +16,16 @@ int main()
   //      printf("Average=%d\n",(grade1+grade2)/2);
   //      printf("Please enter below info\n");
   /////////////new challenge.................
-        int cy;
-        int ya;
-        printf("Current year:");  scanf("%d",&cy); 
-        printf("Your age:");  scanf("%d",&ya); 
-        printf("Year you were born:%d\n",cy-ya);
+      //  int cy;
+      //  int ya;
+      //  printf("Current year:");  scanf("%d",&cy); 
+      //  printf("Your age:");  scanf("%d",&ya); 
+      //  printf("Year you were born:%d\n",cy-ya);
+   /////////////new challenge.................
+        double height,width;
+        printf("Rectange height:");  scanf("%lf",&height); 
+        printf("Rectange width:");  scanf("%lf",&width); 
+        printf("Rectange Area:%.2lf\n",height*width);     
 
 
 
@@ -29,7 +34,7 @@ int main()
 
 
 
-        
+
 
    return 0;
 }
