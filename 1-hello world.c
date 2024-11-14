@@ -23,11 +23,16 @@ int main()
       //  printf("Your age:");  scanf("%d",&ya); 
       //  printf("Year you were born:%d\n",cy-ya);
    /////////////new challenge.................
-        double height,width;
-        printf("Rectange height:");  scanf("%lf",&height); 
-        printf("Rectange width:");  scanf("%lf",&width); 
-        printf("Rectange Area:%.2lf\n",height*width);     
+      //  double height,width;
+     //   printf("Rectange height:");  scanf("%lf",&height); 
+      //  printf("Rectange width:");  scanf("%lf",&width); 
+     //   printf("Rectange Area:%.2lf\n",height*width);     
 
+   /////////////casting.................
+      int num1=5,num2=2;
+      double result;
+      result=num1/(double)num2;   //puting double here is casting
+      printf("result=%lf\n",result);
 
 
 
