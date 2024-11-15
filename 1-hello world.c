@@ -41,15 +41,32 @@ int main()
         // // printf("Average of grades:%.2lf\n",((double)grade1+grade2+grade3)/3); //or
         //   printf("Average of grades:%.2lf\n",(grade1+grade2+grade3)/3.0); //or
    /////////////Milestone 2 Weather Station A
-         double temc,temf;
-         printf("Enter Celsius:");  scanf("%lf",&temc); 
-         printf("fahrenheit Degree:%.2lf\n\n",temc*1.8+32); 
+     //    double temc,temf;
+      //   printf("Enter Celsius:");  scanf("%lf",&temc); 
+     //    printf("fahrenheit Degree:%.2lf\n\n",temc*1.8+32); 
 
-         printf("Enter fahrenheit:");  scanf("%lf",&temf); 
-         printf("Celsius Degree:%.2lf\n",(temf-32)/1.8); 
+     //    printf("Enter fahrenheit:");  scanf("%lf",&temf); 
+     //    printf("Celsius Degree:%.2lf\n",(temf-32)/1.8); 
+
+   /////////////swap ............
+       int a=10;
+       int b=20;
+       int temp;
+       printf("\nBefore swap\n");
+       printf("a=%d\n",a);
+       printf("b=%d\n",b);
+        printf("\nAfter swap\n");
+        temp=a;
+        a=b;
+        b=temp;
+       printf("a=%d\n",a);
+       printf("b=%d\n",b);
 
 
 
+
+
+  
 
 
 
