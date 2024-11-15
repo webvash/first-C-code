@@ -34,13 +34,19 @@ int main()
     //  result=num1/(double)num2;   //puting double here is casting
     //  printf("result=%lf\n",result);
    /////////////casting chalenge 1............
-          int grade1,grade2,grade3;
-          printf("Enter grade1:");  scanf("%d",&grade1); 
-          printf("Enter grade2:");  scanf("%d",&grade2); 
-          printf("Enter grade3:");  scanf("%d",&grade3); 
-         // printf("Average of grades:%.2lf\n",((double)grade1+grade2+grade3)/3); //or
-           printf("Average of grades:%.2lf\n",(grade1+grade2+grade3)/3.0); //or
+        //  int grade1,grade2,grade3;
+        //  printf("Enter grade1:");  scanf("%d",&grade1); 
+        //  printf("Enter grade2:");  scanf("%d",&grade2); 
+         // printf("Enter grade3:");  scanf("%d",&grade3); 
+        // // printf("Average of grades:%.2lf\n",((double)grade1+grade2+grade3)/3); //or
+        //   printf("Average of grades:%.2lf\n",(grade1+grade2+grade3)/3.0); //or
+   /////////////Milestone 2 Weather Station A
+         double temc,temf;
+         printf("Enter Celsius:");  scanf("%lf",&temc); 
+         printf("fahrenheit Degree:%.2lf\n\n",temc*1.8+32); 
 
+         printf("Enter fahrenheit:");  scanf("%lf",&temf); 
+         printf("Celsius Degree:%.2lf\n",(temf-32)/1.8); 
 
 
 
