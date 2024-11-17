@@ -49,7 +49,7 @@ int main()
      //    printf("Celsius Degree:%.2lf\n",(temf-32)/1.8); 
 
    /////////////swap ............
-       int a=10;
+    /*    int a=10;
        int b=20;
        int temp;
        printf("\nBefore swap\n");
@@ -61,6 +61,17 @@ int main()
         b=temp;
        printf("a=%d\n",a);
        printf("b=%d\n",b);
+    */
+     /////////////Arithmetic Sequence  ............  
+      float a1,d,an;
+      int n;
+      printf("\n Enter the first term of sequence:");  scanf("%f",&a1);
+       printf("\nEnter the distance:");  scanf("%f",&d);
+        printf("\nEnter the number of sequence:");  scanf("%d",&n);
+     
+      an=a1+(n-1)*d;
+      printf("\nan=%f",an);
+   
 
 
 
