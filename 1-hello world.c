@@ -63,7 +63,7 @@ int main()
        printf("b=%d\n",b);
     */
      /////////////Arithmetic Sequence  ............  
-      float a1,d,an;
+    /* float a1,d,an;
       int n;
       printf("\n Enter the first term of sequence:");  scanf("%f",&a1);
        printf("\nEnter the distance:");  scanf("%f",&d);
@@ -71,7 +71,15 @@ int main()
      
       an=a1+(n-1)*d;
       printf("\nan=%f",an);
-   
+      */
+     /////////////Arithmetic SUM Sequence  ............  
+      float a1,an;
+      int n;
+      printf ("Please enter n-element:"); scanf("%f",&an);
+      printf ("Please enter initial term:"); scanf ("%f",&a1);
+      printf ("Pleas enter Total terms:"); scanf("%d",&n);
+      printf("sum of sequence=%f",(a1+an)*n/2);
+
 
 
 
