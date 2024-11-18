@@ -73,15 +73,35 @@ int main()
       printf("\nan=%f",an);
       */
      /////////////Arithmetic SUM Sequence  ............  
-      float a1,an;
+     /* float a1,an;
       int n;
       printf ("Please enter n-element:"); scanf("%f",&an);
       printf ("Please enter initial term:"); scanf ("%f",&a1);
       printf ("Pleas enter Total terms:"); scanf("%d",&n);
       printf("sum of sequence=%f",(a1+an)*n/2);
+      */
+     /////////////Arithmetic calculate salary  ............
+      /*
+        float salaryperhour,totalhours;
+       printf ("Enter salary per hours:"); scanf ("%f",&salaryperhour);
+       printf ("Enter totalhours:"); scanf ("%f",&totalhours);
+       printf("Your salary:%.2f",salaryperhour*totalhours);
+
+     */
+     /////////////Arithmetic driving time  ............
+     
+       double second,speed,distance;
+       printf ("Enter speed:"); scanf ("%lf",&speed);
+       printf ("Enter distance:"); scanf ("%lf",&distance);
+       second=distance/(speed/3600);
+       printf("Driving time=%d:%d:%d\n",(int)second/3600,((int)second-(((int)second/3600)*3600))/60,  (int)second-( (((int)second/3600)*3600)+((((int)second-(((int)second/3600)*3600))/60)*60) ));
 
 
 
+
+
+
+   
 
 
 
