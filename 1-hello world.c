@@ -103,9 +103,18 @@ int main()
        printf("Hours:%d \nMinutes:%d \nSeconds:%d \n",second/3600,(second-(second/3600)*3600)/60,(second-(second/3600)*3600)%60);
          */  
       /////////////Arithmetic Removing Decimal Part from an Integer............
-       double data;
+      /* double data;
        printf ("Enter data:"); scanf ("%lf",&data);
        printf ("Removing Decimal Part from an Integer:%.02lf",data-(int)data); 
+       */
+      /////////////Arithmetic Sum of Triple Digits............
+       int num,digit1,digit2,digit3;
+       printf ("Enter Number:"); scanf ("%d",&num);
+        digit1=num*.01;
+         digit2=(num*.1)-(digit1*10);
+         digit3=num-(digit1*100)-(digit2*10);
+       printf("Sum of Triple Digits=%d",digit1+digit2+digit3);
+
 
 
    
