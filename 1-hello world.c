@@ -97,11 +97,15 @@ int main()
        printf("Driving time=%d:%d:%d\n",(int)second/3600,((int)second-(((int)second/3600)*3600))/60,  (int)second-( (((int)second/3600)*3600)+((((int)second-(((int)second/3600)*3600))/60)*60) ));
        */
        /////////////Arithmetic Convert Seconds into Hours Minutes and Seconds ............
+       /*
        int second,minute,hour;
        printf("Enter seconds:"); scanf("%d",&second);
        printf("Hours:%d \nMinutes:%d \nSeconds:%d \n",second/3600,(second-(second/3600)*3600)/60,(second-(second/3600)*3600)%60);
-
-
+         */  
+      /////////////Arithmetic Removing Decimal Part from an Integer............
+       double data;
+       printf ("Enter data:"); scanf ("%lf",&data);
+       printf ("Removing Decimal Part from an Integer:%.02lf",data-(int)data); 
 
 
    
