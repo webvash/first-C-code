@@ -88,15 +88,18 @@ int main()
        printf("Your salary:%.2f",salaryperhour*totalhours);
 
      */
-     /////////////Arithmetic driving time  ............
-     
+      /////////////Arithmetic driving time  ............
+      /*
        double second,speed,distance;
        printf ("Enter speed:"); scanf ("%lf",&speed);
        printf ("Enter distance:"); scanf ("%lf",&distance);
        second=distance/(speed/3600);
        printf("Driving time=%d:%d:%d\n",(int)second/3600,((int)second-(((int)second/3600)*3600))/60,  (int)second-( (((int)second/3600)*3600)+((((int)second-(((int)second/3600)*3600))/60)*60) ));
-
-
+       */
+       /////////////Arithmetic Convert Seconds into Hours Minutes and Seconds ............
+       int second,minute,hour;
+       printf("Enter seconds:"); scanf("%d",&second);
+       printf("Hours:%d \nMinutes:%d \nSeconds:%d \n",second/3600,(second-(second/3600)*3600)/60,(second-(second/3600)*3600)%60);
 
 
 
