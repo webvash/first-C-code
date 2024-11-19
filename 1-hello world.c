@@ -127,7 +127,7 @@ int main()
        printf("Reversed Number=%d",Reversednum);
        */
        /////////////Arithmetic Distance Between 2 Points .................
-        int x1,y1,x2,y2;
+       /* int x1,y1,x2,y2;
         double d;
        printf ("Enter x1:"); scanf ("%d",&x1);
        printf ("\nEnter y1:"); scanf ("%d",&y1);
@@ -135,8 +135,17 @@ int main()
        printf ("\nEnter y2:"); scanf ("%d",&y2);
        d=sqrt(pow(x1-x2,2)+pow(y1-y2,2));
        printf("Distance Between 2 Point=%.2lf",d);
-       
+      */
+       /////////////Arithmetic Efficient Calculation .................
+       int x,y;
+       printf("\nEnter number X="); scanf("%d",&x);
+       printf("\n X^2=%d",y=x*x);
+       printf("\n X^4=%d",y=y*x*x);
+        printf("\n X^6=%d",y=y*x*x);
+         printf("\n X^8=%d",y=y*x*x);
 
+
+       
 
 
    
