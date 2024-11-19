@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 int main()
 {
    printf("Hello perfect word \n");
@@ -49,7 +50,7 @@ int main()
      //    printf("Celsius Degree:%.2lf\n",(temf-32)/1.8); 
 
    /////////////swap ............
-       int a=10;
+    /*    int a=10;
        int b=20;
        int temp;
        printf("\nBefore swap\n");
@@ -61,8 +62,93 @@ int main()
         b=temp;
        printf("a=%d\n",a);
        printf("b=%d\n",b);
+    */
+     /////////////Arithmetic Sequence  ............  
+    /* float a1,d,an;
+      int n;
+      printf("\n Enter the first term of sequence:");  scanf("%f",&a1);
+       printf("\nEnter the distance:");  scanf("%f",&d);
+        printf("\nEnter the number of sequence:");  scanf("%d",&n);
+     
+      an=a1+(n-1)*d;
+      printf("\nan=%f",an);
+      */
+     /////////////Arithmetic SUM Sequence  ............  
+     /* float a1,an;
+      int n;
+      printf ("Please enter n-element:"); scanf("%f",&an);
+      printf ("Please enter initial term:"); scanf ("%f",&a1);
+      printf ("Pleas enter Total terms:"); scanf("%d",&n);
+      printf("sum of sequence=%f",(a1+an)*n/2);
+      */
+     /////////////Arithmetic calculate salary  ............
+      /*
+        float salaryperhour,totalhours;
+       printf ("Enter salary per hours:"); scanf ("%f",&salaryperhour);
+       printf ("Enter totalhours:"); scanf ("%f",&totalhours);
+       printf("Your salary:%.2f",salaryperhour*totalhours);
+
+     */
+      /////////////Arithmetic driving time  ............
+      /*
+       double second,speed,distance;
+       printf ("Enter speed:"); scanf ("%lf",&speed);
+       printf ("Enter distance:"); scanf ("%lf",&distance);
+       second=distance/(speed/3600);
+       printf("Driving time=%d:%d:%d\n",(int)second/3600,((int)second-(((int)second/3600)*3600))/60,  (int)second-( (((int)second/3600)*3600)+((((int)second-(((int)second/3600)*3600))/60)*60) ));
+       */
+       /////////////Arithmetic Convert Seconds into Hours Minutes and Seconds ............
+       /*
+       int second,minute,hour;
+       printf("Enter seconds:"); scanf("%d",&second);
+       printf("Hours:%d \nMinutes:%d \nSeconds:%d \n",second/3600,(second-(second/3600)*3600)/60,(second-(second/3600)*3600)%60);
+         */  
+      /////////////Arithmetic Removing Decimal Part from an Integer............
+      /* double data;
+       printf ("Enter data:"); scanf ("%lf",&data);
+       printf ("Removing Decimal Part from an Integer:%.02lf",data-(int)data); 
+       */
+      /////////////Arithmetic Sum of Triple Digits............
+      /* int num,digit1,digit2,digit3;
+       printf ("Enter Number:"); scanf ("%d",&num);
+        digit1=num*.01;
+         digit2=(num*.1)-(digit1*10);
+         digit3=num-(digit1*100)-(digit2*10);
+       printf("Sum of Triple Digits=%d",digit1+digit2+digit3);
+        */
+      /////////////Arithmetic Reversed Number...........
+      /*
+         int num,digit1,digit2,digit3,Reversednum;
+       printf ("Enter Number:"); scanf ("%d",&num);
+        digit1=num*.01;
+         digit2=(num*.1)-(digit1*10);
+         digit3=num-(digit1*100)-(digit2*10);
+          Reversednum=digit3*100+digit2*10+digit1;
+       printf("Reversed Number=%d",Reversednum);
+       */
+       /////////////Arithmetic Distance Between 2 Points .................
+       /* int x1,y1,x2,y2;
+        double d;
+       printf ("Enter x1:"); scanf ("%d",&x1);
+       printf ("\nEnter y1:"); scanf ("%d",&y1);
+       printf ("\nEnter x2:"); scanf ("%d",&x2);
+       printf ("\nEnter y2:"); scanf ("%d",&y2);
+       d=sqrt(pow(x1-x2,2)+pow(y1-y2,2));
+       printf("Distance Between 2 Point=%.2lf",d);
+      */
+       /////////////Arithmetic Efficient Calculation .................
+       int x,y;
+       printf("\nEnter number X="); scanf("%d",&x);
+       printf("\n X^2=%d",y=x*x);
+       printf("\n X^4=%d",y=y*x*x);
+        printf("\n X^6=%d",y=y*x*x);
+         printf("\n X^8=%d",y=y*x*x);
 
 
+       
+
+
+   
 
 
 
