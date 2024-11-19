@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 int main()
 {
    printf("Hello perfect word \n");
@@ -116,6 +117,7 @@ int main()
        printf("Sum of Triple Digits=%d",digit1+digit2+digit3);
         */
       /////////////Arithmetic Reversed Number...........
+      /*
          int num,digit1,digit2,digit3,Reversednum;
        printf ("Enter Number:"); scanf ("%d",&num);
         digit1=num*.01;
@@ -123,6 +125,17 @@ int main()
          digit3=num-(digit1*100)-(digit2*10);
           Reversednum=digit3*100+digit2*10+digit1;
        printf("Reversed Number=%d",Reversednum);
+       */
+       /////////////Arithmetic Distance Between 2 Points .................
+        int x1,y1,x2,y2;
+        double d;
+       printf ("Enter x1:"); scanf ("%d",&x1);
+       printf ("\nEnter y1:"); scanf ("%d",&y1);
+       printf ("\nEnter x2:"); scanf ("%d",&x2);
+       printf ("\nEnter y2:"); scanf ("%d",&y2);
+       d=sqrt(pow(x1-x2,2)+pow(y1-y2,2));
+       printf("Distance Between 2 Point=%.2lf",d);
+       
 
 
 
