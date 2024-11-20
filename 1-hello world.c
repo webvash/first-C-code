@@ -137,15 +137,20 @@ int main()
        printf("Distance Between 2 Point=%.2lf",d);
       */
        /////////////Arithmetic Efficient Calculation .................
+      /*
        int x,y;
        printf("\nEnter number X="); scanf("%d",&x);
        printf("\n X^2=%d",y=x*x);
        printf("\n X^4=%d",y=y*x*x);
         printf("\n X^6=%d",y=y*x*x);
          printf("\n X^8=%d",y=y*x*x);
-
-
-       
+       */
+       /////////////Control Flow Finding Maximum between 2 numbers.................
+        int num1,num2;
+        printf("Enter num1:");scanf("%d",&num1);
+        printf("Enter num2:");scanf("%d",&num2);
+        if (num1>num2) printf("\nnum1 is grater than num2");   
+        else printf("\nnum2 is grater than num1");
 
 
    
