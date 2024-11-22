@@ -146,17 +146,23 @@ int main()
          printf("\n X^8=%d",y=y*x*x);
        */
        /////////////Control Flow Finding Maximum between 2 numbers.................
+       /*
         int num1,num2;
         printf("Enter num1:");scanf("%d",&num1);
         printf("Enter num2:");scanf("%d",&num2);
         if (num1>num2) printf("\nnum1 is grater than num2");   
         else printf("\nnum2 is grater than num1");
+       */
+       /////////////Control Find if number is Odd or Even
+        
+         int num;
+        printf("Enter num:");scanf("%d",&num);
+        if (num%2==0) printf("\n%d is even",num);   
+        else printf("%d is odd",num);
+        
+      
 
-
-   
-
-
-
+      
   
 
 
