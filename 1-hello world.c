@@ -160,13 +160,38 @@ int main()
         if (num%2==0) printf("\n%d is even",num);   
         else printf("%d is odd",num);
         */
-         /////////////Control Flow  print MIN and MAX....................
-       float num1,num2;
+         /////////////Control Flow-print MIN and MAX....................
+          /*
+        float num1,num2;
         printf("Enter num1:");scanf("%f",&num1);
          printf("Enter num2:");scanf("%f",&num2);
         if (num1>num2) printf("\nMaximum%.2f\nMinimum%.2f",num1,num2);   
         else printf("\nMaximum%.2f\nMinimum%.2f",num2,num1); 
-      
+        */
+         /////////////Control Flow-min max among 3 numbers....................
+
+      float num1,num2,num3;
+        printf("Enter num1:");scanf("%f",&num1);
+         printf("Enter num2:");scanf("%f",&num2);
+          printf("Enter num3:");scanf("%f",&num3);
+          if (num1>num2 && num2>num3) printf("\nMaximum=%.2f\nMinimum=%.2f",num1,num3);
+           if (num1>num3 && num3>num2) printf("\nMaximum=%.2f\nMinimum=%.2f",num1,num2);
+            if (num2>num1 && num1>num3) printf("\nMaximum=%.2f\nMinimum=%.2f",num2,num3);
+             if (num2>num3 && num3>num1) printf("\nMaximum=%.2f\nMinimum=%.2f",num2,num1); 
+              if (num3>num1 && num1>num2) printf("\nMaximum=%.2f\nMinimum=%.2f",num3,num2); 
+               if (num3>num2 && num2>num1) printf("\nMaximum=%.2f\nMinimum=%.2f",num3,num1); 
+          
+    
+
+
+
+
+
+
+
+
+
+
 
       
   
