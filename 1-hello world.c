@@ -169,7 +169,7 @@ int main()
         else printf("\nMaximum%.2f\nMinimum%.2f",num2,num1); 
         */
          /////////////Control Flow-min max among 3 numbers....................
-
+          /*
       float num1,num2,num3;
         printf("Enter num1:");scanf("%f",&num1);
          printf("Enter num2:");scanf("%f",&num2);
@@ -180,8 +180,39 @@ int main()
              if (num2>num3 && num3>num1) printf("\nMaximum=%.2f\nMinimum=%.2f",num2,num1); 
               if (num3>num1 && num1>num2) printf("\nMaximum=%.2f\nMinimum=%.2f",num3,num2); 
                if (num3>num2 && num2>num1) printf("\nMaximum=%.2f\nMinimum=%.2f",num3,num1); 
-          
-    
+          */
+         /////////////Control Flow-Milestone Intermediate Calculator using Switch Case...........
+          char operator;
+          int num1,num2;
+            printf("Enter operator:");scanf("%c",&operator);
+
+        printf("Enter num1:");scanf("%d",&num1);
+         printf("Enter num2:");scanf("%d",&num2);
+         
+         switch (operator)
+         {
+        case '+':
+          printf("sum of 2 number is:%d",num1+num2);
+          break;          
+        case '-':
+          printf("minus of 2 number is:%d",num1-num2);
+          break;
+        case '/':
+        if (num2!=0){  printf("division of 2 number is:%d",num1/num2);}
+              else printf("Please do not enter num2=0");
+
+          break;
+        case '%':
+          printf("reminder of 2 number is:%d",num1 % num2);
+          break;     
+        case '*':
+          printf("multiplication of 2 number is:%d",num1 * num2);
+          break;     
+        default:  printf("Please Enter valid operant.");
+          break;
+         }
+        
+
 
 
 
