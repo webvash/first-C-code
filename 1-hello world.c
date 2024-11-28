@@ -182,6 +182,7 @@ int main()
                if (num3>num2 && num2>num1) printf("\nMaximum=%.2f\nMinimum=%.2f",num3,num1); 
           */
          /////////////Control Flow-Milestone Intermediate Calculator using Switch Case...........
+         /*
           char operator;
           int num1,num2;
             printf("Enter operator:");scanf("%c",&operator);
@@ -211,9 +212,15 @@ int main()
         default:  printf("Please Enter valid operant.");
           break;
          }
-        
-
-
+        */
+         /////////////Control Flow-Check if Numbers are the same................
+          
+        int num1,num2;
+         printf("Enter num1:");scanf("%d",&num1);
+         printf("Enter num2:");scanf("%d",&num2);
+         if (num1==num2) printf ("True");
+         else printf("False");
+         
 
 
 
