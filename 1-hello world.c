@@ -214,14 +214,20 @@ int main()
          }
         */
          /////////////Control Flow-Check if Numbers are the same................
-          
+          /*
         int num1,num2;
          printf("Enter num1:");scanf("%d",&num1);
          printf("Enter num2:");scanf("%d",&num2);
          if (num1==num2) printf ("True");
          else printf("False");
+            */
+         /////////////Control Flow--Check if a number is double digit or triple digit................
          
-
+         int num;
+         printf("Enter num:");scanf("%d",&num);
+         if (num>=10 && num<=99) printf ("Double digit");
+         else if (num>=100 && num<=999) printf ("Triple digit");
+         else printf("Neither Double/Triple");
 
 
 
