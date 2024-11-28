@@ -222,12 +222,19 @@ int main()
          else printf("False");
             */
          /////////////Control Flow--Check if a number is double digit or triple digit................
-         
+         /*
          int num;
          printf("Enter num:");scanf("%d",&num);
          if (num>=10 && num<=99) printf ("Double digit");
          else if (num>=100 && num<=999) printf ("Triple digit");
          else printf("Neither Double/Triple");
+            */
+         /////////////Control Flow--Print the Absolute Number ................
+         int num;
+         printf("Enter num:");scanf("%d",&num);
+         if (num>=0) printf ("absolute value=%d",num);
+         else if (num<0) printf ("absolute value=%d",num*-1);
+         
 
 
 
