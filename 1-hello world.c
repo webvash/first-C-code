@@ -237,6 +237,7 @@ int main()
          else if (num<0) printf ("absolute value=%d",num*-1);
          */
          /////////////Control Flow--Quadrant of a Point .....................
+         /*
          int x,y;
          printf("Enter X:");scanf("%d",&x);
          printf("Enter Y:");scanf("%d",&y);
@@ -245,8 +246,29 @@ int main()
          else if (x<0 && y<0) printf ("Quadrant 3");
          else if (x>0 && y<0) printf ("Quadrant 4");
          else printf ("on lines");
-             
-             
+                 */
+         /////////////Control Flow--Month Number to Month Name.....................  
+          
+         int num;
+         printf("Enter the number of month:");scanf("%d",&num);
+           switch (num)
+           {
+           case 1:  printf("%d --> January:",num); break;
+           case 2:  printf("%d --> February:",num); break;
+           case 3:  printf("%d --> March:",num); break;
+           case 4:  printf("%d --> April:",num); break;
+           case 5:  printf("%d --> May:",num); break;
+           case 6:  printf("%d --> June:",num); break;
+           case 7:  printf("%d --> July:",num); break;
+           case 8:  printf("%d --> August:",num); break;
+           case 9:  printf("%d --> September:",num); break;
+           case 10:  printf("%d --> October:",num); break;
+           case 11:  printf("%d --> November:",num); break;
+           case 12:  printf("%d --> December:",num); break;
+
+           default:  printf("Please enter a number between 1 to 12",num); break;
+            break;
+           }  
 
  
 
