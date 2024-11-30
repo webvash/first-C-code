@@ -3,7 +3,7 @@
 #include <math.h>
 int main()
 {
-   printf("Hello perfect word \n");
+  // printf("Hello perfect word \n");
   // printf("  *\n ***\n*****\n");
   //  printf(" Calculation\n");  
   //  printf (" 5+2=%d\n 5-2=%d\n 5/2=%d\n 5%%2=%d\n",5+2,5-2,5/2,5%2);
@@ -231,7 +231,7 @@ int main()
             */
          /////////////Control Flow--Print the Absolute Number ................
          /*
-         int num;
+         int num;  
          printf("Enter num:");scanf("%d",&num);
          if (num>=0) printf ("absolute value=%d",num);
          else if (num<0) printf ("absolute value=%d",num*-1);
@@ -248,7 +248,7 @@ int main()
          else printf ("on lines");
                  */
          /////////////Control Flow--Month Number to Month Name.....................  
-          
+          /*
          int num;
          printf("Enter the number of month:");scanf("%d",&num);
            switch (num)
@@ -269,8 +269,50 @@ int main()
            default:  printf("Please enter a number between 1 to 12",num); break;
             break;
            }  
+             */
+            /////////////Control Flow--Unique Clock Representation  ..................... 
+            int second,minute,hour; char h,m,s;
+            printf("Enter seconds:");scanf("%d",&second);
+            hour=second/3600;
+            minute=(second-(hour*3600))/60;
+            second=(second-(hour*3600))%60;
+            if (hour<10) 
+               h='0';
+            if (minute<10) 
+               m='0';
+             if (second<10) 
+               s='0';
+            printf ("%c%d : %c%d : %c%d",h,hour,m,minute,m,second);
+           
 
- 
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
