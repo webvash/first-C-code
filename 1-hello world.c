@@ -271,6 +271,7 @@ int main()
            }  
              */
             /////////////Control Flow--Unique Clock Representation  ..................... 
+             /*
             int second,minute,hour; char h,m,s;
             printf("Enter seconds:");scanf("%d",&second);
             hour=second/3600;
@@ -283,7 +284,17 @@ int main()
              if (second<10) 
                s='0';
             printf ("%c%d : %c%d : %c%d",h,hour,m,minute,m,second);
-           
+           */
+            /////////////Control Flow--Divisible 3 Numbers..................... 
+            
+            int x,y,z;
+         printf("Enter X:");scanf("%d",&x);
+         printf("Enter Y:");scanf("%d",&y);
+         printf("Enter z:");scanf("%d",&z);
+         if (x==0 || y==0 || z==0) printf("Cannot divided by 0-please enter other number");
+         else if ((x%y==0 || y%x==0) && (x%z==0 || z%x==0)  && (y%z==0 || z%y==0) ) printf ("Divisible");
+         else printf ("NON-Divisible");
+
 
 
             
