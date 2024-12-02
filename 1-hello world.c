@@ -286,7 +286,7 @@ int main()
             printf ("%c%d : %c%d : %c%d",h,hour,m,minute,m,second);
            */
             /////////////Control Flow--Divisible 3 Numbers..................... 
-            
+            /*
             int x,y,z;
          printf("Enter X:");scanf("%d",&x);
          printf("Enter Y:");scanf("%d",&y);
@@ -294,6 +294,22 @@ int main()
          if (x==0 || y==0 || z==0) printf("Cannot divided by 0-please enter other number");
          else if ((x%y==0 || y%x==0) && (x%z==0 || z%x==0)  && (y%z==0 || z%y==0) ) printf ("Divisible");
          else printf ("NON-Divisible");
+                  */
+          /////////////Control Flow--Is Leap Year..................... 
+
+          int year;
+         printf("Enter year:");scanf("%d",&year);
+          if(year%4==0 && (year%100!=0 || year%400==0)) printf("%d is a leap year",year);
+          else printf("%d is NOT a leap year",year);
+          
+
+
+
+
+
+
+
+          
 
 
 
