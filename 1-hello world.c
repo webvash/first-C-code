@@ -296,12 +296,44 @@ int main()
          else printf ("NON-Divisible");
                   */
           /////////////Control Flow--Is Leap Year..................... 
-
+          /*
           int year;
          printf("Enter year:");scanf("%d",&year);
           if(year%4==0 && (year%100!=0 || year%400==0)) printf("%d is a leap year",year);
           else printf("%d is NOT a leap year",year);
-          
+            */
+         /////////////Control Flow--Find the next day on Calendar ..................... 
+         int year,month,day,m=0;
+         printf("Enter year:");scanf("%d",&year);
+          printf("Enter month:");scanf("%d",&month);
+           printf("Enter day:");scanf("%d",&day);
+           day++;
+
+           switch (month)
+           {
+             case 1:  case 3: case 5: case 7: case 8: case 10: case 12:   //31 days
+               if (day>31){ month++; day=1;  if (month>12) {year++; month=1;}}
+               break;
+
+             case 4: case 6: case 9: case 11:   //30 days
+              if (day>30){ month++; day=1;  if (month>12) {year++; month=1;}  }
+              break;
+           
+             default: //case 2 (28 or 29) days
+                 if(year%4==0 && (year%100!=0 || year%400==0)) //leap year
+                  {
+                    if (day>29){ month++; day=1;  if (month>12) {year++; month=1;}  }
+                  }
+                 else //not-leap year
+                   {
+                     if (day>28){ month++; day=1;  if (month>12) {year++; month=1;}  }
+                   }
+               break;
+           }
+           printf("Next day=%d %d %d",day,month,year);
+
+            
+      
 
 
 
