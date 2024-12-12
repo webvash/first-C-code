@@ -333,7 +333,24 @@ int main()
            }
            printf("Next day=%d %d %d",day,month,year);
             */
-            /////////////Control Flow--     ..................... 
+            /////////////Change number--Program to Print a Date In Hexadecimal.................... 
+            
+            int year,month,day;
+             printf("Enter year:");scanf("%d",&year);
+              printf("Enter month:");scanf("%d",&month);
+               printf("Enter day:");scanf("%d",&day);
+            
+             printf("year:0X%x",year);
+             printf("\nyear:0X%x",month);
+             printf("\nyear:0X%x",day);
+             
+
+
+
+
+
+
+
 
 
             
