@@ -303,6 +303,7 @@ int main()
           else printf("%d is NOT a leap year",year);
             */
          /////////////Control Flow--Find the next day on Calendar ..................... 
+          /*
          int year,month,day,m=0;
          printf("Enter year:");scanf("%d",&year);
           printf("Enter month:");scanf("%d",&month);
@@ -331,7 +332,14 @@ int main()
                break;
            }
            printf("Next day=%d %d %d",day,month,year);
+            */
+            /////////////Control Flow--     ..................... 
 
+
+            
+
+            
+            
             
       
 
