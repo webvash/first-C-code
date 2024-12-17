@@ -333,7 +333,59 @@ int main()
            }
            printf("Next day=%d %d %d",day,month,year);
             */
-            /////////////Control Flow--     ..................... 
+            /////////////Change number--Program to Print a Date In Hexadecimal.................... 
+            /*
+            int year,month,day;
+             printf("Enter year:");scanf("%d",&year);
+              printf("Enter month:");scanf("%d",&month);
+               printf("Enter day:");scanf("%d",&day);
+            
+             printf("year:0X%x",year);
+             printf("\nyear:0X%x",month);
+             printf("\nyear:0X%x",day);
+             
+            */
+            /////////////Change number--check if an input is Lower Upper Case Letter or Digit.................... 
+             /*
+            //my soloution
+             char ch;
+             printf ("Enter a character: "); scanf("%c",&ch);
+             int in=("%d",ch);
+            // printf ("%d",in);
+             if (in>=48 && in<=57) printf ("%c is a Digit",ch);
+              else if (in>=65 && in<=90) printf ("%c is a Uppercase Letter",ch);
+               else if (in>=97 && in<=122) printf ("%c is a Lowercase Letter",ch);
+                  else  printf("%c is Other",ch);
+                */
+             //teacher solution
+               /*
+                char myCharacter;
+                 printf("Enter character: ");
+                 scanf("%c", &myCharacter);
+
+                 if (myCharacter >= 'A' && myCharacter <= 'Z')
+                     printf("It's a uppercase!\n");
+                  else if (myCharacter >= 'a' && myCharacter <= 'z')
+                     printf("It's a lowercase!\n");
+                  else if (myCharacter >= '0' && myCharacter <= '9')
+                    printf("It's a digit!\n");
+                  else
+                    printf("Other..!\n"); 
+               */
+                      
+
+       /////////////Loops--.................... 
+         
+
+                       
+
+
+
+
+
+
+
+
 
 
             
