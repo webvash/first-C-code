@@ -374,8 +374,16 @@ int main()
                */
                       
 
-       /////////////Loops--.................... 
-         
+       /////////////Loops--Printing any number of asterisks.................... 
+         int num,count=1;
+             printf ("Enter the number: "); scanf("%d",&num); 
+               while (count<=num)
+               {
+                  printf ("*");
+                  count++;
+
+               }
+
 
                        
 
