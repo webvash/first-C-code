@@ -358,7 +358,7 @@ int main()
                   else  printf("%c is Other",ch);
                 */
              //teacher solution
-             
+               /*
                 char myCharacter;
                  printf("Enter character: ");
                  scanf("%c", &myCharacter);
@@ -371,10 +371,12 @@ int main()
                     printf("It's a digit!\n");
                   else
                     printf("Other..!\n"); 
-
+               */
                       
 
-       /////////////Change number--.................... 
+       /////////////Loops--.................... 
+         
+
                        
 
 
