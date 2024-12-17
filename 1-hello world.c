@@ -385,6 +385,7 @@ int main()
                }
         */
        /////////////Loops-- Adding Pow to Calculator..........................
+         /*
           int num,pow,num1,count=1;
              printf ("Enter the number: "); scanf("%d",&num); 
               printf ("Enter the power: "); scanf("%d",&pow); 
@@ -395,6 +396,27 @@ int main()
                   num=num*num1;
                }
                printf ("%d in the power %d= %d",num1,pow,num);
+                        */
+       /////////////Loops--Milestone 1 Coolest Average Grade Calculator..........................     
+          
+          int count=-1;
+           double  num,num1;
+           
+              printf ("Enter grades (when finish enter -1)= ");
+               
+               while (num!=-1)
+               {
+                   num1=num1+num;
+                   scanf("%lf",&num); 
+                  
+                  count++;
+                 
+               }
+
+               printf ("Average= %lf",num1/count);
+               
+
+              
 
 
                        
