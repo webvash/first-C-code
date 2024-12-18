@@ -398,7 +398,7 @@ int main()
                printf ("%d in the power %d= %d",num1,pow,num);
                         */
        /////////////Loops--Milestone 1 Coolest Average Grade Calculator..........................     
-          
+          /*
           int count=-1;
            double  num,num1;
            
@@ -414,67 +414,15 @@ int main()
                }
 
                printf ("Average= %lf",num1/count);
-               
+                */
+       /////////////Loops--Enter a legal grade..........................  
+       int grade;
+        do {
+             printf("Enter a grade:"); scanf ("%d",&grade);
 
-              
-
-
-                       
-
-
-
-
-
-
-
-
-
-
-            
-
-            
-            
-            
-      
-
-
-
-
-
-
-
-          
-
-
-
-            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            }
+            while (grade<0 || grade>100);
+         printf("Thanks! You have inserted %d,which is legit grade",grade); 
 
 
 
