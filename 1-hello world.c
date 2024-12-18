@@ -440,13 +440,30 @@ int main()
                printf ("%d in the power %d= %d",num1,pow,num);
            */
         /////////////Loops--Punishment..........................
-                              
+                              /*
               for (int i = 1; i < 1000; i++)
                {
                                 
                  printf ("I am soory");
                } 
+               */
+        /////////////Loops--Punishment..........................
 
+         int num;
+     printf ("Enter the number: "); scanf("%d",&num); 
+     
+     
+        
+        for (int i = 1; i <= num; i++)
+        { 
+           for (int j = 1; j <= i; j++)
+              { 
+                 printf ("%d ",j);
+              }
+              printf ("\n");
+        }
+       
+       
 
 
 
