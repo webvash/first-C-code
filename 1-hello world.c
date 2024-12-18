@@ -447,7 +447,7 @@ int main()
                  printf ("I am soory");
                } 
                */
-        /////////////Loops--Punishment..........................
+        /////////////Loops---Nested Loops Print Right Angle Triangle Pattern part 1 ..........................
 
          int num;
      printf ("Enter the number: "); scanf("%d",&num); 
