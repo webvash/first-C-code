@@ -426,6 +426,7 @@ int main()
          printf("Thanks! You have inserted %d,which is legit grade",grade); 
          */
        /////////////Loops--Adding POW using For Loops.......................... 
+          /*
          int num,pow,num1,count;
              printf ("Enter the number: "); scanf("%d",&num); 
               printf ("Enter the power: "); scanf("%d",&pow); 
@@ -437,6 +438,16 @@ int main()
                 }
                
                printf ("%d in the power %d= %d",num1,pow,num);
+           */
+        /////////////Loops--Punishment..........................
+                              
+              for (int i = 1; i < 1000; i++)
+               {
+                                
+                 printf ("I am soory");
+               } 
+
+
 
 
 
