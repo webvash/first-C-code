@@ -416,6 +416,7 @@ int main()
                printf ("Average= %lf",num1/count);
                 */
        /////////////Loops--Enter a legal grade..........................  
+       /*
        int grade;
         do {
              printf("Enter a grade:"); scanf ("%d",&grade);
@@ -423,6 +424,19 @@ int main()
             }
             while (grade<0 || grade>100);
          printf("Thanks! You have inserted %d,which is legit grade",grade); 
+         */
+       /////////////Loops--Adding POW using For Loops.......................... 
+         int num,pow,num1,count;
+             printf ("Enter the number: "); scanf("%d",&num); 
+              printf ("Enter the power: "); scanf("%d",&pow); 
+              num1=num;
+                
+                for (count = 1; count < pow; count++)
+                {
+                   num=num*num1;
+                }
+               
+               printf ("%d in the power %d= %d",num1,pow,num);
 
 
 
