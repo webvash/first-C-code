@@ -448,7 +448,7 @@ int main()
                } 
                */
         /////////////Loops---Nested Loops Print Right Angle Triangle Pattern part 1 ..........................
-
+     /*
          int num;
      printf ("Enter the number: "); scanf("%d",&num); 
      
@@ -462,8 +462,22 @@ int main()
               }
               printf ("\n");
         }
+          */
+       /////////////Loops---Nested Loops Print Right Angle Triangle Pattern part 2 .......................... 
        
-       
+         int num;
+     printf ("Enter the number: "); scanf("%d",&num); 
+     
+     
+        
+        for (int i = 1; i <= num; i++)
+        { 
+           for (int j = 1; j <= i; j++)
+              { 
+                 printf ("%d ",i);
+              }
+              printf ("\n");
+        }
 
 
 
