@@ -480,17 +480,27 @@ int main()
         }
           */
       /////////////Loops--- 1 Cents Million Dollars   .......................... 
-             
+             /*
          int m=1;
         for (int i = 1; i <= 30; i++)
         { 
           m=m*2;
         }
            printf ("%d $",m/100); 
+           */
+     /////////////Loops---Print from 1 to num and vice versa  .......................... 
 
-      
-
-
+         int num;
+           printf ("Enter the number: "); scanf("%d",&num);  
+           for (int i = 1; i <= num; i++)
+             { 
+              printf ("%d,",i);
+             }
+              printf ("\n");
+           for (int j=num; j >=1; j--)
+             { 
+               printf ("%d,",j);
+             }
 
 
 
