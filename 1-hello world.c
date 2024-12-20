@@ -464,7 +464,7 @@ int main()
         }
           */
        /////////////Loops---Nested Loops Print Right Angle Triangle Pattern part 2 .......................... 
-       
+       /*
          int num;
      printf ("Enter the number: "); scanf("%d",&num); 
      
@@ -478,7 +478,17 @@ int main()
               }
               printf ("\n");
         }
+          */
+      /////////////Loops--- 1 Cents Million Dollars   .......................... 
+             
+         int m=1;
+        for (int i = 1; i <= 30; i++)
+        { 
+          m=m*2;
+        }
+           printf ("%d $",m/100); 
 
+      
 
 
 
