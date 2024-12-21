@@ -489,7 +489,7 @@ int main()
            printf ("%d $",m/100); 
            */
      /////////////Loops---Print from 1 to num and vice versa  .......................... 
-
+           /*
          int num;
            printf ("Enter the number: "); scanf("%d",&num);  
            for (int i = 1; i <= num; i++)
@@ -501,6 +501,27 @@ int main()
              { 
                printf ("%d,",j);
              }
+           */
+      /////////////Loops---Print Pyramid Numbers Pattern  .......................... 
+         
+            int num,n1,n2,m=0;
+              printf ("Enter the number: "); scanf("%d",&num);  
+              n1=num;n2=2;
+          for (int j = 1; j<=num; j++)
+            { 
+              for (int i = 1; i < n1; i++)
+                { 
+                  printf (" ");
+                }
+                n1--;
+              
+              for (int i = 1; i < n2; i++)
+               { m=m+1;
+                 printf ("%d ",m);
+               }  
+                n2++;  printf ("\n");
+            }     
+       
 
 
 
