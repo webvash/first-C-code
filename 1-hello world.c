@@ -374,67 +374,154 @@ int main()
                */
                       
 
-       /////////////Loops--.................... 
+       /////////////Loops--Printing any number of asterisks.................... 
+       /*
+         int num,count=1;
+             printf ("Enter the number: "); scanf("%d",&num); 
+               while (count<=num)
+               {
+                  printf ("*");
+                  count++;
+               }
+        */
+       /////////////Loops-- Adding Pow to Calculator..........................
+         /*
+          int num,pow,num1,count=1;
+             printf ("Enter the number: "); scanf("%d",&num); 
+              printf ("Enter the power: "); scanf("%d",&pow); 
+              num1=num;
+               while (count<pow)
+               {
+                  count++;
+                  num=num*num1;
+               }
+               printf ("%d in the power %d= %d",num1,pow,num);
+                        */
+       /////////////Loops--Milestone 1 Coolest Average Grade Calculator..........................     
+          /*
+          int count=-1;
+           double  num,num1;
+           
+              printf ("Enter grades (when finish enter -1)= ");
+               
+               while (num!=-1)
+               {
+                   num1=num1+num;
+                   scanf("%lf",&num); 
+                  
+                  count++;
+                 
+               }
+
+               printf ("Average= %lf",num1/count);
+                */
+       /////////////Loops--Enter a legal grade..........................  
+       /*
+       int grade;
+        do {
+             printf("Enter a grade:"); scanf ("%d",&grade);
+
+            }
+            while (grade<0 || grade>100);
+         printf("Thanks! You have inserted %d,which is legit grade",grade); 
+         */
+       /////////////Loops--Adding POW using For Loops.......................... 
+          /*
+         int num,pow,num1,count;
+             printf ("Enter the number: "); scanf("%d",&num); 
+              printf ("Enter the power: "); scanf("%d",&pow); 
+              num1=num;
+                
+                for (count = 1; count < pow; count++)
+                {
+                   num=num*num1;
+                }
+               
+               printf ("%d in the power %d= %d",num1,pow,num);
+           */
+        /////////////Loops--Punishment..........................
+                              /*
+              for (int i = 1; i < 1000; i++)
+               {
+                                
+                 printf ("I am soory");
+               } 
+               */
+        /////////////Loops---Nested Loops Print Right Angle Triangle Pattern part 1 ..........................
+     /*
+         int num;
+     printf ("Enter the number: "); scanf("%d",&num); 
+     
+     
+        
+        for (int i = 1; i <= num; i++)
+        { 
+           for (int j = 1; j <= i; j++)
+              { 
+                 printf ("%d ",j);
+              }
+              printf ("\n");
+        }
+          */
+       /////////////Loops---Nested Loops Print Right Angle Triangle Pattern part 2 .......................... 
+       /*
+         int num;
+     printf ("Enter the number: "); scanf("%d",&num); 
+     
+     
+        
+        for (int i = 1; i <= num; i++)
+        { 
+           for (int j = 1; j <= i; j++)
+              { 
+                 printf ("%d ",i);
+              }
+              printf ("\n");
+        }
+          */
+      /////////////Loops--- 1 Cents Million Dollars   .......................... 
+             /*
+         int m=1;
+        for (int i = 1; i <= 30; i++)
+        { 
+          m=m*2;
+        }
+           printf ("%d $",m/100); 
+           */
+     /////////////Loops---Print from 1 to num and vice versa  .......................... 
+           /*
+         int num;
+           printf ("Enter the number: "); scanf("%d",&num);  
+           for (int i = 1; i <= num; i++)
+             { 
+              printf ("%d,",i);
+             }
+              printf ("\n");
+           for (int j=num; j >=1; j--)
+             { 
+               printf ("%d,",j);
+             }
+           */
+      /////////////Loops---Print Pyramid Numbers Pattern  .......................... 
          
-
-                       
-
-
-
-
-
-
-
-
-
-
-            
-
-            
-            
-            
-      
-
-
-
-
-
-
-
-          
-
-
-
-            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            int num,n1,n2,m=0;
+              printf ("Enter the number: "); scanf("%d",&num);  
+              n1=num;n2=2;
+          for (int j = 1; j<=num; j++)
+            { 
+              for (int i = 1; i < n1; i++)
+                { 
+                  printf (" ");
+                }
+                n1--;
+              
+              for (int i = 1; i < n2; i++)
+               { m=m+1;
+                 printf ("%d ",m);
+               }  
+                n2++;  printf ("\n");
+            }     
+       
 
 
 
