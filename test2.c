@@ -27,6 +27,29 @@ float calculateArea(int h,int w)
 
  }
 
+ int Factorial ()
+  { 
+    int num,num1=1;
+    printf("Enter the number:"); scanf("%d",&num);
+    if (num >=0)
+    {
+      
+      for (int i=num; i>0 ; i--)
+      {
+        num1=num1*i;
+      }
+    }
+   else num1=-1;
+
+    return num1;
+  }
+
+
+
+
+
+
+
 int main ()
 {
     /////////////function---Find Rectangle Area.......................... 
@@ -40,16 +63,15 @@ int main ()
    printf("Arae=%f",area);
     */
     /////////////function---2 Maximum DIGIT in a 2 digits number.......................... 
+    /*
     int num;
     printf("Enter number:"); scanf("%d",&num);
 
    TwoMaximumDIGITina2digitsnumber(num);
+   */
+/////////////function--- Calculate FACTORIAL.......................... 
 
-
-
-
-
-
+   printf("factorial is=%d",Factorial());
 
     return 0;
 }
