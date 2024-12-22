@@ -44,6 +44,16 @@ float calculateArea(int h,int w)
     return num1;
   }
 
+  int Ninenumber (int num)
+  { int a=0;
+    for (int i = 0; i < num; i++)
+    {
+      a=10*a+9;
+    }
+    return a;
+
+  }
+
 
 
 
@@ -70,8 +80,23 @@ int main ()
    TwoMaximumDIGITina2digitsnumber(num);
    */
 /////////////function--- Calculate FACTORIAL.......................... 
-
+/*
    printf("factorial is=%d",Factorial());
+*/
+/////////////function---Sequence of 9s.......................... 
+
+   int num;
+    printf("Enter number:"); scanf("%d",&num);
+    printf("Sequence of 9s=%d",Ninenumber(num));
+
+
+
+
+
+
+
+
+
 
     return 0;
 }
