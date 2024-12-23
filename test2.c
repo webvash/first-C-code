@@ -44,8 +44,8 @@ float calculateArea(int h,int w)
     return num1;
   }
 
-  int Ninenumber (int num)
-  { int a=0;
+  long long Ninenumber (int num)
+  { long long a=0;
     for (int i = 0; i < num; i++)
     {
       a=10*a+9;
@@ -54,8 +54,26 @@ float calculateArea(int h,int w)
 
   }
 
+   long long GenerationofNumbers123seqlength (int num)
+  { long long a=0;
+    if (num<=9)
+    {
+        for (int i = 1; i <= num; i++)
+         {
+          a=10*a+i;
+         }
+        return a;
+    }
 
+    a=Ninenumber (num);
+    
+    
+    
 
+    
+    return a;
+
+  }
 
 
 
@@ -84,10 +102,24 @@ int main ()
    printf("factorial is=%d",Factorial());
 */
 /////////////function---Sequence of 9s.......................... 
-
+  /*
    int num;
     printf("Enter number:"); scanf("%d",&num);
     printf("Sequence of 9s=%d",Ninenumber(num));
+  */
+/////////////function---Generation of Numbers 123 seq length..........................         
+
+      int num;
+  printf("Enter number:"); scanf("%d",&num);
+  printf("Sequence=%lld",GenerationofNumbers123seqlength (num));                 
+    
+      
+    
+
+
+
+
+
 
 
 
