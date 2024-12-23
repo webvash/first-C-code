@@ -79,6 +79,16 @@ float calculateArea(int h,int w)
     return '-1';    
    }
 
+ char toUpper(char ch)
+  {
+    if (ch>='a' && ch<='z' )
+    {
+      ch=ch-32;
+      return ch;
+    }
+    
+   return '-1';    
+  }
 
 
 int main ()
@@ -117,11 +127,17 @@ int main ()
   printf("Sequence=%lld",GenerationofNumbers123seqlength (num));               
   */
 /////////////function---toLower ..........................  
-
+   /*
     char ch;
-  printf("Enter number:"); scanf("%c",&ch);
+  printf("Enter letter:"); scanf("%c",&ch);
   printf("toLower =%c",toLower (ch));     
-      
+     */
+  /////////////function---toUpper .......................... 
+
+  char ch;
+printf("Enter letter:"); scanf("%c",&ch);
+printf("toUpper =%c",toUpper (ch));     
+
     
 
 
