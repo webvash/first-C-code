@@ -64,17 +64,20 @@ float calculateArea(int h,int w)
          }
         return a;
     }
-
     a=Ninenumber (num);
-    
-    
-    
-
-    
     return a;
-
   }
 
+  char toLower(char ch)
+   {
+     if (ch>='A' && ch<='Z' )
+     {
+       ch=ch+32;
+       return ch;
+     }
+     
+    return '-1';    
+   }
 
 
 
@@ -108,11 +111,16 @@ int main ()
     printf("Sequence of 9s=%d",Ninenumber(num));
   */
 /////////////function---Generation of Numbers 123 seq length..........................         
-
+ /*
       int num;
   printf("Enter number:"); scanf("%d",&num);
-  printf("Sequence=%lld",GenerationofNumbers123seqlength (num));                 
-    
+  printf("Sequence=%lld",GenerationofNumbers123seqlength (num));               
+  */
+/////////////function---toLower ..........................  
+
+    char ch;
+  printf("Enter number:"); scanf("%c",&ch);
+  printf("toLower =%c",toLower (ch));     
       
     
 
