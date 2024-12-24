@@ -91,10 +91,27 @@ float calculateArea(int h,int w)
   }
 
 
+ 
+ int CharsTo3DigitsInteger(char ch1,char ch2,char ch3)
+  {
+    if (ch1>='0' && ch1<='9' && ch2>='0' && ch2<='9' && ch3>='0' && ch3<='9')
+      { int a=ch1-48; int b=ch2-48; int c=ch3-48;
+         return a*100+b*10+c;
+      }
+    return 0;
+  }
+
+
+
+
+
+
+
+
 int main ()
 {
     /////////////function---Find Rectangle Area.......................... 
-    /*
+   /*
     int height,width;
     float area;
     printf("Enter height:"); scanf("%d",&height);
@@ -102,7 +119,7 @@ int main ()
 
    area=calculateArea(height,width);
    printf("Arae=%f",area);
-    */
+    */ 
     /////////////function---2 Maximum DIGIT in a 2 digits number.......................... 
     /*
     int num;
@@ -133,15 +150,19 @@ int main ()
   printf("toLower =%c",toLower (ch));     
      */
   /////////////function---toUpper .......................... 
-
+   /*
   char ch;
-printf("Enter letter:"); scanf("%c",&ch);
-printf("toUpper =%c",toUpper (ch));     
+    printf("Enter letter:"); scanf("%c",&ch);
+    printf("toUpper =%c",toUpper (ch));     
+   */
+ /////////////function---Chars To 3 Digits Integer .......................... 
 
-    
-
-
-
+   char ch1,ch2,ch3;
+  printf("Enter first char:"); scanf("%c",&ch1);
+ printf("Enter second char:"); scanf(" %c",&ch2);          
+ printf("Enter third char:"); scanf(" %c",&ch3);
+  printf("3Digits=%d",CharsTo3DigitsInteger (ch1,ch2,ch3));     
+       
 
 
 
