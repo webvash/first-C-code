@@ -10,7 +10,7 @@ float calculateArea(int h,int w)
 
  }
 
- void TwoMaximumDIGITina2digitsnumber(num)
+ void TwoMaximumDIGITina2digitsnumber(int num)
  {
     if (num>=10 && num<100)
     {
@@ -76,7 +76,7 @@ float calculateArea(int h,int w)
        return ch;
      }
      
-    return '-1';    
+    return '1';    
    }
 
  char toUpper(char ch)
@@ -87,7 +87,7 @@ float calculateArea(int h,int w)
       return ch;
     }
     
-   return '-1';    
+   return '1';    
   }
 
 
@@ -101,6 +101,26 @@ float calculateArea(int h,int w)
     return 0;
   }
 
+ 
+double AverageOfDigitsLess(int num,int digit)
+  { int num1,count=0,num3=0;
+     while (num>0)
+     {
+      
+      num1=num%10;
+      num=num*0.1;
+      if (num1<digit) { count++;num3=num3+num1;}
+     }
+
+     printf ("number of less than digite=%d\n",count);
+     return num3/(double)count;
+
+     
+        
+   
+   
+ 
+  }
 
 
 
@@ -156,15 +176,20 @@ int main ()
     printf("toUpper =%c",toUpper (ch));     
    */
  /////////////function---Chars To 3 Digits Integer .......................... 
-
+  /*
    char ch1,ch2,ch3;
   printf("Enter first char:"); scanf("%c",&ch1);
  printf("Enter second char:"); scanf(" %c",&ch2);          
  printf("Enter third char:"); scanf(" %c",&ch3);
   printf("3Digits=%d",CharsTo3DigitsInteger (ch1,ch2,ch3));     
-       
-
-
+     */  
+ /////////////function---Amount And Average Of Digits Less Than Given Digit .......................... 
+  
+      int num,digit;
+  printf("Enter the number:"); scanf("%d",&num);
+ printf("Enter the digite:"); scanf(" %d",&digit);          
+ 
+  printf("average=%lf",AverageOfDigitsLess (num,digit));     
 
 
 
