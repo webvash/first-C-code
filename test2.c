@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
 
 float calculateArea(int h,int w)
@@ -106,22 +107,31 @@ double AverageOfDigitsLess(int num,int digit)
   { int num1,count=0,num3=0;
      while (num>0)
      {
-      
       num1=num%10;
       num=num*0.1;
       if (num1<digit) { count++;num3=num3+num1;}
      }
-
      printf ("number of less than digite=%d\n",count);
      return num3/(double)count;
-
-     
-        
-   
-   
- 
   }
 
+int SumOfDivisors(int num)
+ { int sum=0;
+   for (int i = 1; i<=(num/2); i++)
+   {
+    if (num%i==0)  sum=sum+i;
+   }
+   return sum+num;
+ }
+
+int SumOfdvisorsOptimized (int num)
+ { int sum=0;
+   for (int i = 1; i<=sqrt(num);  i++)
+   {
+    if (num%i==0) { sum=sum+i; if ( i!=sqrt(num)) {sum=sum+num/i;} }
+   }
+   return sum;
+ }
 
 
 
@@ -184,19 +194,25 @@ int main ()
   printf("3Digits=%d",CharsTo3DigitsInteger (ch1,ch2,ch3));     
      */  
  /////////////function---Amount And Average Of Digits Less Than Given Digit .......................... 
-  
+  /*
       int num,digit;
   printf("Enter the number:"); scanf("%d",&num);
  printf("Enter the digite:"); scanf(" %d",&digit);          
  
   printf("average=%lf",AverageOfDigitsLess (num,digit));     
+  */
+ /////////////function---Sum Of Divisors  .......................... 
+   /*
+  int num;
+  printf("Enter the number:"); scanf("%d",&num);
+   printf("Sum Of Divisor=%d",SumOfDivisors (num));         
+ 
+  */
+ /////////////function---Sum Of dvisors Optimized  .......................... 
 
-
-
-
-
-
-
+  int num;
+  printf("Enter the number:"); scanf("%d",&num);
+   printf("Sum Of Divisor=%d",SumOfdvisorsOptimized (num));         
 
 
 
