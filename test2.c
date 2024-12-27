@@ -133,6 +133,12 @@ int SumOfdvisorsOptimized (int num)
    return sum;
  }
 
+int PerfectNumbers (int num)
+ { 
+   if (SumOfdvisorsOptimized (num)-num == num) return 1;
+   return 0;
+ }
+
 
 
 
@@ -209,10 +215,30 @@ int main ()
  
   */
  /////////////function---Sum Of dvisors Optimized  .......................... 
-
+  /*
   int num;
   printf("Enter the number:"); scanf("%d",&num);
    printf("Sum Of Divisor=%d",SumOfdvisorsOptimized (num));         
+  */
+  /////////////function---Perfect Numbers.......................... 
+    
+ int num;
+ printf("Enter the number:"); scanf("%d",&num);
+ printf("Is Perfect Number=%d",PerfectNumbers (num));   
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
