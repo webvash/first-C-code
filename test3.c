@@ -40,6 +40,7 @@ int max=num[0],maxindex=0;
  printf("Max Index=%d",maxindex);
 */
 /////////////array---Good Multiplication Neighbors.......................... 
+/*
 int num[7]={5,6,2,3,6,2,9};
 int ind=0;
 for (int i = 0; i < 6; i++)
@@ -55,6 +56,21 @@ if (ind==1)
    printf ("Good Neighbor");
   }
 else printf ("NOT Good Neighbor");
+*/
+/////////////array--- Initializing Printing 2D Array.......................... 
+
+//int myArray [3][4]={{1,2,3,4},{5,6,7,8},{9,10,11,12}};
+//int myArray [3][4]={{1,5},{1,2,3,4},{5,6,7,8}};
+int myArray [3][4]={1,0,5,0,6,9,0,0,6};
+for (int i = 0; i < 3; i++)
+{
+  for (int j = 0; j < 4; j++)
+  {
+    printf("%d  ",myArray[i][j]);
+  }
+  printf("\n");
+}
+
 
 
 
