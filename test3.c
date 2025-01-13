@@ -98,6 +98,7 @@ for (int i = 0; i < 3; i++)
   }
   */
   /////////////array---Input to Element in a 2D Array.......................... 
+   /*
   double num[2][3];
   for (int i = 0; i < 2; i++)
   {
@@ -115,6 +116,20 @@ for (int i = 0; i < 3; i++)
     }
     printf("\n");
  }
+   */
+  /////////////array---Physical Representation in Memory-1D.......................... 
+   
+   int num[5];
+   printf("Address=%lu\n",&num[0] ); 
+    printf("Address=%lu\n",&num[1] ); 
+     printf("Address=%lu\n",&num[2] ); 
+      printf("Address=%lu\n",&num[3] ); 
+       printf("Address=%lu\n",&num[4] ); 
+        printf("Address=%lu\n",&num[5] ); 
+
+   
+
+
 
 
 
