@@ -118,7 +118,7 @@ for (int i = 0; i < 3; i++)
  }
    */
   /////////////array---Physical Representation in Memory-1D.......................... 
-   
+   /*
    int num[5];
    printf("Address=%lu\n",&num[0] ); 
     printf("Address=%lu\n",&num[1] ); 
@@ -126,10 +126,24 @@ for (int i = 0; i < 3; i++)
       printf("Address=%lu\n",&num[3] ); 
        printf("Address=%lu\n",&num[4] ); 
         printf("Address=%lu\n",&num[5] ); 
-
+    */
    
+  /////////////array---Physical Representation in Memory-2D.......................... 
+    
+    int num[3][4];
+     
+     for (int i = 0; i < 3; i++)
+     {
+       for (int j = 0; j < 4; j++)
+       {
+         printf("%lu  ",&num[i][j] ); 
+       }
+        printf("\n");
+     }
+     
 
 
+    
 
 
 
