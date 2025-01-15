@@ -129,7 +129,7 @@ for (int i = 0; i < 3; i++)
     */
    
   /////////////array---Physical Representation in Memory-2D.......................... 
-    
+    /*
     int num[3][4];
      
      for (int i = 0; i < 3; i++)
@@ -140,7 +140,13 @@ for (int i = 0; i < 3; i++)
        }
         printf("\n");
      }
-     
+       */
+  /////////////POINTER--- pointer..........................   
+     int grade1=50,grade2=80;
+     printf("grade 1 value=%d\n",grade1);
+      printf("grade 1 address=%p\n",&grade1);
+     printf("grade 2 value=%d\n",grade2);
+      printf("grade 2 address=%p\n",&grade2); 
 
 
     
