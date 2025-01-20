@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#define s 8
 
 
  /////////////POINTER---Pass by Reference FULL EXAMPLE.......................... 
@@ -31,7 +32,7 @@ int main ()
     printf("min between %d and %d = %d\n", a, b, min);
   */
 /////////////Arrays---Arrays Copying an Array Question.......................... 
-
+/*
   int date [3]={1,2,2000};
   int date2[3];
  
@@ -45,8 +46,24 @@ for (int i = 0; i < 3; i++)
 {
 printf ("%d ",date2 [i]); 
 }
-    
-  
+  */  
+/////////////Arrays---Array Palindrome..........................
+
+ int arr[s]={8,5,7,2,2,7,5,8};
+ int count=0;
+ for (int i = 0; i < s/2; i++)
+ {
+   if (arr[i]==arr[s-1-i]) count++; 
+ }
+
+ if (count ==s/2) printf("Array is Palindrome");
+ else printf("Array is NOT Palindrome");
+
+ 
+
+
+
+
 
 
 
