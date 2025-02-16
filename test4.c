@@ -48,7 +48,7 @@ printf ("%d ",date2 [i]);
 }
   */  
 /////////////Arrays---Array Palindrome..........................
-
+/*
  int arr[s]={8,5,7,2,2,7,5,8};
  int count=0;
  for (int i = 0; i < s/2; i++)
@@ -58,10 +58,18 @@ printf ("%d ",date2 [i]);
 
  if (count ==s/2) printf("Array is Palindrome");
  else printf("Array is NOT Palindrome");
-
-
-
-
+*/
+/////////////Arrays---Arrays Largest Neighbors Sum ..........................
+ 
+ int arr[5]={1,4,6,7,51};
+ int sum,maxsum=0;
+ for (int i = 0; i < 4; i++)
+ {
+  sum=arr[i]+arr[i+1];
+  if (sum>maxsum){maxsum=sum;}
+ }
+ 
+ printf("Largest Neighbors Sum=%d",maxsum);
  
 
 
