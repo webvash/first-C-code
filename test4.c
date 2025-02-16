@@ -73,6 +73,7 @@ printf ("%d ",date2 [i]);
  printf("Largest Neighbors Sum=%d",maxsum);
  */
  /////////////Arrays--- A Program to find if an Array is sorted ..........................
+/*
  int arr[size];
  int Reallysorted=0,sorted=0,NOTsorted=0;
  for (int i = 0; i < size; i++)
@@ -90,11 +91,25 @@ printf ("%d ",date2 [i]);
  if (sorted==0 && NOTsorted==0) printf("Reallysorted");
  if (sorted!=0 && NOTsorted==0) printf("sorted");
  if ( NOTsorted!=0) printf("NOTsorted");
- 
-
-
-
-
+ */
+/////////////Arrays--- A Program to print and count all unique elements in an array..........................      
+  int arr[10]={5,7,3,4,5,6,8,9,10,3};
+  int count=0,count1=0;
+   
+  for (int i = 0; i < 10; i++)
+  {
+     for (int j = 0; j < 10; j++)
+     {
+      if (arr[i]!=arr[j])
+      {
+        count++;
+      }
+      
+     }
+     if (count==9){ printf("unique element=%d \n",arr[i]); count1++;}
+     count=0;
+  }
+  printf("number of unique element=%d ",count1);
 
 
 
