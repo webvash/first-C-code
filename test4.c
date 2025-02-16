@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #define s 8
+#define size 5
 
 
  /////////////POINTER---Pass by Reference FULL EXAMPLE.......................... 
@@ -60,7 +61,7 @@ printf ("%d ",date2 [i]);
  else printf("Array is NOT Palindrome");
 */
 /////////////Arrays---Arrays Largest Neighbors Sum ..........................
- 
+ /*
  int arr[5]={1,4,6,7,51};
  int sum,maxsum=0;
  for (int i = 0; i < 4; i++)
@@ -70,6 +71,25 @@ printf ("%d ",date2 [i]);
  }
  
  printf("Largest Neighbors Sum=%d",maxsum);
+ */
+ /////////////Arrays--- A Program to find if an Array is sorted ..........................
+ int arr[size];
+ int Reallysorted=0,sorted=0,NOTsorted=0;
+ for (int i = 0; i < size; i++)
+ {
+   printf("Please enter the value of array:"); scanf("%d",&arr[i]);
+ }
+ 
+ for (int i = 0; i < size-1; i++)
+ {
+         if (arr[i]<arr[i+1]) {Reallysorted++;}
+         if (arr[i]==arr[i+1]) {sorted++;}
+         if (arr[i]>arr[i+1]) {NOTsorted++; }   
+ }
+ 
+ if (sorted==0 && NOTsorted==0) printf("Reallysorted");
+ if (sorted!=0 && NOTsorted==0) printf("sorted");
+ if ( NOTsorted!=0) printf("NOTsorted");
  
 
 
