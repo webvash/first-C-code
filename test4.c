@@ -13,7 +13,7 @@ void findMinMax(int num1, int num2, int *pMax, int *pMin)
         *pMax = num1;
     }
     else
-    {
+    {    
         *pMin = num1;
         *pMax = num2;
     }
@@ -58,6 +58,9 @@ printf ("%d ",date2 [i]);
 
  if (count ==s/2) printf("Array is Palindrome");
  else printf("Array is NOT Palindrome");
+
+
+
 
  
 
