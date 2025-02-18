@@ -92,7 +92,8 @@ printf ("%d ",date2 [i]);
  if (sorted!=0 && NOTsorted==0) printf("sorted");
  if ( NOTsorted!=0) printf("NOTsorted");
  */
-/////////////Arrays--- A Program to print and count all unique elements in an array..........................      
+/////////////Arrays--- A Program to print and count all unique elements in an array..........................     
+ /*
   int arr[10]={5,7,3,4,5,6,8,9,10,3};
   int count=0,count1=0;
    
@@ -110,6 +111,60 @@ printf ("%d ",date2 [i]);
      count=0;
   }
   printf("number of unique element=%d ",count1);
+  */
+  /////////////Arrays---A Program to count a total number of non unique values in an array..........................    
+     
+    int arr[10]={5,9,3,5,5,6,5,9,3,3},arr1[10]={0,0,0,0,0,0,0,0,0,0};
+    int count=0,br=0;
+     
+    for (int i = 0; i < 10; i++)
+    {  br=0;
+       for (int j = 0; j < 10; j++)
+       {
+        
+        if (arr[i]==arr[j] && i!=j )
+        { 
+          
+           for (int i1 = 0; i1 < 10; i1++)
+           {  
+            if (arr1[i1]==arr[j]){br=1;}
+           }
+
+            if (br==0)
+            {
+             printf("NON-unique element=%d \n",arr[i]); count++;
+             br=0; arr1[i]=arr[i];
+            }
+         }
+                
+        }
+    }
+   
+    printf("number of NON-unique element=%d ",count);
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
